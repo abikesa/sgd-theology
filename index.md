@@ -1,3 +1,22 @@
+
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
 This is a fascinating crossover. If you are trying to map the **medical process of Differential Diagnosis (DDx)** onto the **mathematical framework of Stochastic Gradient Descent (SGD)**, the analogy actually holds up surprisingly well.
 
 Here is how you can view a Doctor as a Neural Network optimizing a Loss Function.
@@ -10,7 +29,7 @@ In this analogy, the "Truth" (the patient's actual disease) is the **Global Mini
 | --- | --- | --- |
 | **The Goal** | Minimize the Loss Function (Error). | Minimize Diagnostic Uncertainty (mismatch between symptoms and diagnosis). |
 | **Initialization** | Random weights or pre-trained model. | The "Chief Complaint" (Starting broad: "Chest pain"). |
-| **The Data Batch** | A small sample of training data (). | A specific "batch" of information: Vital signs, history, or a single lab result. |
+| **The Data Batch** | A small sample of training data ($x, y$). | A specific "batch" of information: Vital signs, history, or a single lab result. |
 | **The Gradient** | Calculating the direction of steepest descent. | The doctor realizing, *"This symptom doesn't fit X, it looks more like Y."* |
 | **The Step** | Updating the model weights. | Ordering a specific test (e.g., EKG) or ruling out a disease. |
 | **Learning Rate** | How big a step you take. | **Aggressiveness:** Do you wait and see (low rate) or order a CT scan immediately (high rate)? |
