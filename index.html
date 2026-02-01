@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!-- html, head, body[header, main, footer] -->
+<html lang="en" data-theme="dark">
+<!-- head, body[header, main, footer] -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ukhona — An Accounting of Survival</title>
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="ukhona/css/head.css" rel="stylesheet" />
+  <script src="ukhona/js/mathjax.js"></script>
+  <script id="MathJax-script" defer
+     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<!-- body[header, main, footer] -->
+<body>
+  <div class="scroll-indicator"><div class="scroll-progress"></div></div>
+  <div class="bg-pattern"></div>
+  <!-- header, main, footer -->
+  <header class="header">
+    <div class="nav-container wrap-max">
+      <img src="https://abikesa.github.io/logos/assets/ukubona-dark.png"
+           alt="Ukubona LLC Logo"
+           id="logo"
+           class="logo" />
+
+      <div class="top-right">
+        <ul class="nav-links">
+          <li><a href="https://ukb-dt.github.io/fibromyalgia/" class="nav-link" data-nav="home">Home</a></li>
+        </ul>
+
+        <button class="menu-icon" id="menuIcon" role="button" aria-label="Open navigation menu" aria-expanded="false">
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+        </button>
+
+        <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+    <div class="app-grid wrap-max" id="gridMenu" aria-hidden="true">
+
+            <a href="https://ukb-dt.github.io/fibromyalgia/"><div class="icon-box">📊</div>Home</a>
+            <a href="#"><div class="icon-box">🎮</div>Games</a>      
+            <a href="#"><div class="icon-box">🎯</div>Mission</a>
+            <a href="#"><div class="icon-box">📈</div>Models</a>
+            <a href="#"><div class="icon-box">🧑‍🤝‍🧑</div>Team</a>
+            <a href="#"><div class="icon-box">✉️</div>Contact</a>
+            <a href="#"><div class="icon-box">🌊</div>Atheists</a>
+            <a href="#"><div class="icon-box">❤️</div>Knob</a>
+            <a href="#"><div class="icon-box">🔥</div>Gemini</a>
+            <a href="#"><div class="icon-box">🧠</div>Table</a>
+            <a href="#"><div class="icon-box">⚛️</div>Heisenberg</a>
+            <a href="#"><div class="icon-box">🔄</div>Prigogine</a>
+            <a href="#"><div class="icon-box">🧬</div>Vogelstein</a>
+            <a href="#"><div class="icon-box">📖</div>Dostoevsky</a>
+            <a href="#"><div class="icon-box">🗻</div>Nietzsche</a>
+            <a href="#"><div class="icon-box">✨</div>Yebo</a>
+            <a href="#"><div class="icon-box">🔥</div>Ngikhona</a>
+            <a href="#"><div class="icon-box">👁️</div>Saubona</a>
+            <a href="#"><div class="icon-box">🎭</div>Dionysus</a>
+            <a href="#"><div class="icon-box">🏛️</div>Apollo</a>
+            <a href="#"><div class="icon-box">⚡</div>Entropy</a>
+            <a href="#"><div class="icon-box">🌀</div>Chaos</a>
+            <a href="#"><div class="icon-box">🎼</div>Harmony</a>
+            <a href="#"><div class="icon-box">🔮</div>Oracle</a>
+            <a href="#"><div class="icon-box">🌌</div>Cosmos</a>
+            <a href="#"><div class="icon-box">💫</div>Stardust</a>
+            <a href="#"><div class="icon-box">🎨</div>Aesthetics</a>
+            <a href="#"><div class="icon-box">⚖️</div>Ethics</a>
+            <a href="#"><div class="icon-box">🧭</div>Navigate</a>
+            <a href="#"><div class="icon-box">🌳</div>Organic</a>
+            <a href="#"><div class="icon-box">🔬</div>Science</a>
+            <a href="#"><div class="icon-box">🎓</div>Academia</a>
+            <a href="#"><div class="icon-box">📚</div>Library</a>
+            <a href="#"><div class="icon-box">🖋️</div>Poetry</a>
+            <a href="#"><div class="icon-box">🎵</div>Music</a>
+            <a href="#"><div class="icon-box">🌅</div>Dawn</a>
+            <a href="#"><div class="icon-box">🌃</div>Dusk</a>
+            <a href="#"><div class="icon-box">💡</div>Insight</a>
+            <a href="#"><div class="icon-box">🔑</div>Gateway</a>
+            <a href="#"><div class="icon-box">🌺</div>Blossom</a>
+            <a href="#"><div class="icon-box">🦅</div>Freedom</a>
+            <a href="#"><div class="icon-box">🐉</div>Myth</a>
+            <a href="#"><div class="icon-box">🌙</div>Lunar</a>
+            <a href="#"><div class="icon-box">☀️</div>Solar</a>
+            <a href="#"><div class="icon-box">🌍</div>Terra</a>
+            <a href="#"><div class="icon-box">🌬️</div>Breath</a>
+            <a href="#"><div class="icon-box">💧</div>Fluid</a>
+            <a href="#"><div class="icon-box">🔆</div>Radiance</a>
+            <a href="#"><div class="icon-box">🌿</div>Growth</a>
+            <a href="#"><div class="icon-box">🍂</div>Decay</a>
+            <a href="#"><div class="icon-box">❄️</div>Crystal</a>
+            <a href="#"><div class="icon-box">🌋</div>Ignition</a>
+            <a href="#"><div class="icon-box">🏔️</div>Summit</a>
+            <a href="#"><div class="icon-box">🌊</div>Wave</a>
+            <a href="#"><div class="icon-box">🎪</div>Spectacle</a>
+            <a href="#"><div class="icon-box">🗝️</div>Cipher</a>
+            <a href="#"><div class="icon-box">📡</div>Signal</a>
+            <a href="#"><div class="icon-box">🛸</div>Beyond</a>
+            <a href="#"><div class="icon-box">🧩</div>Pattern</a>
+            <a href="#"><div class="icon-box">🎲</div>Chance</a>
+            <a href="#"><div class="icon-box">♟️</div>Strategy</a>
+            <a href="#"><div class="icon-box">🏺</div>Artifact</a>
+            <a href="#"><div class="icon-box">📜</div>Scroll</a>
+            <a href="#"><div class="icon-box">🗿</div>Monument</a>
+            <a href="#"><div class="icon-box">⏳</div>Time</a>
+            <a href="#"><div class="icon-box">🔭</div>Vision</a>
+            <a href="#"><div class="icon-box">🧪</div>Alchemy</a>
+            <a href="#"><div class="icon-box">⚗️</div>Transform</a>
+            <a href="#"><div class="icon-box">🎯</div>Precision</a>
+            <a href="#"><div class="icon-box">🌐</div>Network</a>
+            <a href="#"><div class="icon-box">🔗</div>Link</a>
+            <a href="#"><div class="icon-box">🧵</div>Thread</a>
+            <a href="#"><div class="icon-box">🕸️</div>Web</a>
+            <a href="#"><div class="icon-box">🌟</div>Stellar</a>
+            <a href="#"><div class="icon-box">💎</div>Gem</a>
+            <a href="#"><div class="icon-box">🏹</div>Arrow</a>
+            <a href="#"><div class="icon-box">⚔️</div>Conflict</a>
+            <a href="#"><div class="icon-box">🛡️</div>Defense</a>
+            <a href="#"><div class="icon-box">🕊️</div>Peace</a>
+            <a href="#"><div class="icon-box">🦋</div>Metamorphosis</a>
+            <a href="#"><div class="icon-box">🌸</div>Ephemeral</a>
+            <a href="#"><div class="icon-box">🍃</div>Breath</a>
+            <a href="#"><div class="icon-box">🌾</div>Harvest</a>
+            <a href="#"><div class="icon-box">🏮</div>Lantern</a>
+            <a href="#"><div class="icon-box">🎐</div>Wind</a>
+            <a href="#"><div class="icon-box">🧘</div>Stillness</a>
+            <a href="#"><div class="icon-box">⛩️</div>Threshold</a>
+            <a href="#"><div class="icon-box">🕯️</div>Flame</a>
+            <a href="#"><div class="icon-box">🌈</div>Spectrum</a>
+            <a href="#"><div class="icon-box">🎆</div>Celebration</a>
+            <a href="#"><div class="icon-box">🎇</div>Sparkle</a>
+            <a href="#"><div class="icon-box">🌠</div>Wish</a>
+            <a href="https://abikesa.github.io/ukuzula/"><div class="icon-box">🔱</div>Trident</a>
+            <a href="https://abikesa.github.io/catalog/"><div class="icon-box">♾️</div>Infinite</a>
+            <a href="https://abikesa.github.io/clinical-science/"><div class="icon-box">🎎</div>Duality</a>
+            <a href="https://abikesa.github.io/worthy/intro.html"><div class="icon-box">🧿</div>Protection</a>
+            <a href="https://ukb-dt.github.io/latex-00/"><div class="icon-box">🪶</div>Lightness</a>
+            <a href="https://eplnm.github.io/iframe/"><div class="icon-box">🏛️</div>Archive</a>
+
+    </div>
+  </header>
+
+  <!-- main[sections], footer -->
+  <main class="page wrap-max">
+
+          <!-- section class="card" -->
+
+  <!-- Large image of The Dude at the very top -->
+<section class="card hero-image-card">
+  <div class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">2 Yohana 1:3</h1>
+      <div class="hero-subtitle-group">
+        <h2 class="hero-subtitle">Data → <a href="https://jhurepos.github.io/sgd-theology/">Signal</a> → Meaning</h2>
+        <h3 class="hero-meta">Altitude · Gradient · Basin</h3>
+      </div>
+    </div>
+    <figure class="hero-figure">
+      <div class="image-wrapper">
+        <img 
+          src="ukhona/img/rx.jpg" 
+          alt="The Dude with his Rug" 
+          class="hero-image"
+        >
+      </div>
+      <figcaption class="hero-caption">Ibirunga, Mifumbiro</figcaption>
+    </figure>
+  </div>   
+</section>
+
+<style>
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  padding: 2.5rem 1.5rem;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 100%);
+  color: white;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.2;
+  background: linear-gradient(to right, #ffffff, #e2e8f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 500;
+  margin: 0;
+  color: #94a3b8;
+  letter-spacing: 0.05em;
+  font-family: 'Courier New', monospace;
+}
+
+.hero-meta {
+  font-size: clamp(0.875rem, 2vw, 1.125rem);
+  font-weight: 300;
+  margin: 0;
+  color: #64748b;
+  letter-spacing: 0.15em;
+}
+
+.hero-figure {
+  margin: 0;
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #0f172a;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.02);
+}
+
+.hero-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #64748b;
+  padding: 1rem;
+  background: linear-gradient(to bottom, transparent, rgba(15, 23, 42, 0.05));
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .hero-content {
+    padding: 3.5rem 2rem;
+  }
+  
+  .hero-caption {
+    font-size: 1rem;
+    padding: 1.25rem;
+  }
+}
+</style>
+
+      <section class="card">
+        <h1>DDx as SGD</h1>
+        <p><em>Exploring the mechanics of a clinical process vs. machine learning algorithm.</em></p>
+        <h2>Card 1: Mapping DDx to SGD — The Core Insight</h2>
+        <p>A fascinating crossover: View the doctor as a neural network optimizing a loss function via <strong>Stochastic Gradient Descent (SGD)</strong>. The patient's true disease is the <strong>global minimum</strong>; the current hypothesis is the <strong>position in parameter space</strong>.</p>
+        <p>Conceptual Mapping Table:</p>
+        <ul>
+          <li><strong>Goal</strong>: Minimize Loss (SGD) ⇔ Minimize diagnostic uncertainty (DDx mismatch symptoms → diagnosis).</li>
+          <li><strong>Initialization</strong>: Random/pre-trained weights ⇔ Chief complaint (broad start: "epigastric pain").</li>
+          <li><strong>Data Batch</strong>: Small training sample ⇔ Vital signs, history snippet, or single lab/test result.</li>
+          <li><strong>Gradient</strong>: Steepest descent direction ⇔ Symptom mismatch insight ("This doesn't fit X, leans toward Y").</li>
+          <li><strong>Step / Update</strong>: Weight adjustment ⇔ Ordering targeted test or ruling out disease.</li>
+          <li><strong>Learning Rate</strong>: Step size ⇔ Aggressiveness (wait-and-see low vs. urgent CT high).</li>
+        </ul>
+        <p>MathJax enabled for inline rendering: e.g., gradient as $\nabla L$, update as $\theta_{t+1} = \theta_t - \eta \nabla L$.</p>
+      </section>
+
+      <section class="card">
+        <h2>Card 2: The "Stochastic" Essence — Noisy, Iterative Reality</h2>
+        <p>Standard Gradient Descent uses full dataset → impractical in medicine (rarely have genetics + MRI + biopsy at t=0).</p>
+        <p><strong>Stochastic</strong> updates shine here: Process one (or small batch) data point at a time, with noise.</p>
+        <ol>
+          <li>Patient: "Hurts when I breathe" → immediate probability shift (weights update).</li>
+          <li>Step toward new hypothesis (e.g., Pneumonia vs. MI).</li>
+          <li>Next: Fever 39°C → another noisy update.</li>
+          <li>Iterate: Noisy path (weird symptom misleads temporarily), but converges over time to lowest-error diagnosis.</li>
+        </ol>
+        <p>Real-world DDx is noisy SGD: partial info → hypothesis refinement → more data → repeat. Mirrors clinical uncertainty and Bayesian-like priors in noisy gradients.</p>
+      </section>
+
+      <section class="card">
+        <h2>Card 3: Where Metaphor Meets AI Reality + Summary</h2>
+        <p>Not just analogy — modern CAD systems (e.g., VisualDx, AI symptom checkers) <strong>literally train via SGD</strong>:</p>
+        <ul>
+          <li>Input: Massive EHR datasets.</li>
+          <li>Algorithm: Neural net optimized by SGD/backprop.</li>
+          <li>Output: Probability-ranked DDx list.</li>
+        </ul>
+        <p>Summary: Differential Diagnosis = optimization landscape descent. Doctor iteratively steps through symptom space, stochastic updates from each new clue, converging on minimal-error point (correct diagnosis). Noisy, efficient, real-time — just like SGD in training.</p>
+        <p><em>Question for reflection:</em> Building a diagnostic model? Or seeking a mental framework to grasp DDx / SGD? (Pentadic lens welcome: Language labels symptoms, Science measures error ε, Art tracks dE/dt trajectory, Life adds ecological volatility, Meaning integrates lifetime priors.)</p>
+      </section>
+
+      <section class="card">
+        <h2>Card 4: Presentation & Initial Interpretation</h2>
+        <p>23yo female, Kampala, epigastric point tenderness (below xiphisternum), associated diarrhea, partial relief from antibiotics (esp. amoxicillin), recurrent after incomplete "triple therapy" (~1 week multiple times). Looks well/lean/healthy, blames "poor eating". Self-provided med list: Ciprofloxacin 500mg (repeated/short courses), Esomeprazole (40/30mg combos), Oraxin/Draxin syrup, Vusco liquid (likely mucosal protectant), etc. Advice given: milk/cheese for acid buffering, complete full course (3 weeks commitment), strong PPI continuation.</p>
+        <ul>
+          <li>Key complaint now: upsetting diarrhea</li>
+          <li>Strong suspicion: Persistent <strong>H. pylori</strong> gastritis/ulcer (East Africa high prevalence, incomplete eradication → resistance/recurrence)</li>
+          <li>DDx differentials: Functional dyspepsia, antibiotic-associated diarrhea, possible parasites (Giardia common locally), less likely biliary/GERD</li>
+        </ul>
+        <p><em>Pentadic schemes</em> (from site rabbit holes → fibromyalgia/DDx=SGD page): Custom 5-lens (Language/Science/Art/Life/Meaning) applied → reinforces bacterial persistence + iatrogenic diarrhea as core equation.</p>
+      </section>
+
+      <section class="card">
+        <h2>Card 5: Pentadic Calculus Application & Refinements</h2>
+        <p>Using site's pentadic framework (Language → Science → Art → Life → Meaning) on case:</p>
+        <ul>
+          <li><strong>Language (00)</strong>: Epigastric spot pain + diarrhea → classic H. pylori localization + dysbiosis signal</li>
+          <li><strong>Science (01)</strong>: No alarms, partial abx/PPI response, recurrence post-incomplete → high H. pylori probability</li>
+          <li><strong>Art (02)</strong>: Relapsing-remitting trajectory, diarrhea escalation from repeated short courses</li>
+          <li><strong>Life (03)</strong>: Self-medication pattern, regional resistance (cipro poor choice), young resilience but accumulating gut toll</li>
+          <li><strong>Meaning (04)</strong>: Early H. pylori + failed erads → resistance buildup; diarrhea breach in QOL → need full reset</li>
+        </ul>
+        <p>Recommendations: Avoid repeated cipro (high resistance). Prefer bismuth quadruple (PPI bid + bismuth + metro + tetra, 14 days) per current guidelines. Probiotics for diarrhea. Retest eradication post-Rx. If bismuth unavailable → concomitant quadruple or optimized triple (full duration).</p>
+      </section>
+
+      <section class="card">
+        <h2>Card 6: Bismuth Clarification & Giardia Coverage</h2>
+        <p><strong>Bismuth</strong> = safe compound (e.g., bismuth subcitrate in De-Nol® or subsalicylate in Pepto-style), coats stomach, kills H. pylori directly, boosts antibiotic efficacy. Key in preferred quadruple therapy (Maastricht VI/ACG 2024+), especially Africa high clarith resistance. Available Kampala (pharmacies like First Pharmacy, Mulago area; generics/compounded; ask for De-Nol or bismuth subcitrate).</p>
+        <p><strong>Metronidazole & Giardia</strong>: Yes — standard first-line for giardiasis (common cause diarrhea + epigastric pain in Uganda). Adult dose: 250–500 mg TID × 5–7 days (or tinidazole single 2g). In quadruple regimen (metro 400–500 mg TID–QID × 14 days) → covers Giardia as bonus if present. No need separate Rx unless confirmed persistent.</p>
+        <ul>
+          <li>Next: Source bismuth if possible → start optimized 14-day course</li>
+          <li>Support: Probiotic (S. boulardii ideal), hydration, bland diet</li>
+          <li>Follow-up: Symptom check + H. pylori retest (stool antigen) 4+ weeks post</li>
+        </ul>
+        <p>Young patient → excellent prognosis with committed full eradication. Danke for the session!</p>
+      </section>
+
+      <section class="card">
+        <h2>DDx as SGD — What Happens After a Big Learning Rate Step</h2>
+        <p>In the <strong>DDx as SGD</strong> analogy (building on the card you shared), a <strong>big learning rate</strong> (η) in one iteration corresponds to a doctor making a <strong>very aggressive diagnostic move</strong> — like immediately ordering invasive tests, starting broad-spectrum treatment, or jumping to a rare/high-stakes diagnosis based on limited initial clues.</p>
+
+        <h3>Here's what the algorithm (SGD) typically does <strong>next</strong> after such a large step:</h3>
+
+        <h4>Immediate Consequences of One Large Step</h4>
+        <ul>
+          <li><strong>Overshooting the minimum</strong> — The update θ_{t+1} = θ_t - η ∇L(θ_t) becomes very large because η is big. Instead of gently approaching the true disease (global/local minimum of the loss), the hypothesis jumps <strong>past</strong> it to the opposite side of the loss landscape.
+            <ul>
+              <li>In DDx terms: The doctor rules in/out something too hastily → symptoms now "don't fit" the new hypothesis even worse than before.</li>
+            </ul>
+          </li>
+          <li><strong>Oscillation</strong> — The next gradient (from the new, overshot position) often points <strong>back</strong> toward the previous area (or even stronger in the opposite direction). So the following update swings back — potentially overshooting again in the reverse direction.
+            <ul>
+              <li>Result: The loss (diagnostic uncertainty) starts bouncing up and down wildly instead of steadily decreasing.</li>
+              <li>In medicine: Hypothesis flips rapidly (e.g., "it's cardiac → no, definitely pulmonary → wait, maybe GI?"), tests contradict each other, patient confusion rises, and uncertainty <strong>increases</strong> rather than resolves.</li>
+            </ul>
+          </li>
+          <li><strong>Divergence (worst case)</strong> — If η is <strong>extremely</strong> large (or the landscape is steep/unstable), the steps grow larger and larger → parameters explode → loss goes to infinity.
+            <ul>
+              <li>In DDx: The doctor chases increasingly unlikely diagnoses → orders more and more tests/treatments → misses the real issue entirely, risks harm (over-testing, wrong therapy), or abandons coherent reasoning.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Visual/Conceptual Behavior After One Big Step</h4>
+        <ul>
+          <li><strong>Next iteration(s)</strong>: The algorithm computes a new noisy gradient from the overshot position → likely large in the opposite direction → takes another big step back (or sideways if stochastic noise kicks in).</li>
+          <li><strong>Short-term path</strong>: Zigzag / oscillation around the minimum (noisy bouncing) rather than smooth descent.</li>
+          <li><strong>Long-term outcome</strong> (without adjustment):
+            <ul>
+              <li>May eventually settle into a noisy orbit around a suboptimal point (high variance, poor final accuracy).</li>
+              <li>Or diverge completely (training "blows up" — loss NaN/exploding gradients).</li>
+              <li>Stochastic noise can sometimes help escape bad overshoots, but with very large η it's usually destructive.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>DDx Analogy Mapping</h4>
+        <ul>
+          <li><strong>Big η step</strong> = Ordering a high-risk/expensive test cascade or jumping to treatment based on one strong symptom ("chest pain → stat cath lab!").</li>
+          <li><strong>Next step (algorithm's response)</strong> = New data contradicts the jump → doctor backtracks aggressively ("actually normal EKG → rule out cardiac, chase PE instead").</li>
+          <li><strong>Result</strong> = Oscillating differential (flip-flopping diagnoses), wasted resources, delayed correct diagnosis, or spiraling uncertainty.</li>
+        </ul>
+
+        <h4>Practical Takeaway (Both ML & Medicine)</h4>
+        <p>Large learning rates speed things up initially but risk instability. In practice:</p>
+        <ul>
+          <li>Start with moderate η and decay/schedule it down.</li>
+          <li>Use momentum/Adam-style adaptive rates to dampen wild swings.</li>
+          <li>In clinic: Start broad but measured (history + basics), escalate aggressiveness only as data demands — avoid "one big leap" unless truly emergent.</li>
+        </ul>
+
+        <p>This noisy, overshooting behavior is exactly why tuning the learning rate (diagnostic aggressiveness) is so critical — too big, and you diverge from truth rather than converge.</p>
+
+        <p>If you'd like a fourth card expanding this "large η" scenario (with math visuals or pentadic overlay), just say!</p>
+      </section>
+
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="wrap-max footer-wrap">
+      <div class="footer-chorus" aria-label="Ukubona chorus">
+        <span class="chip">"Ukubona" means to see</span>
+        <span class="chip"><em>"Ivyabona" means to witness</em> —</span>
+        <span class="chip">to look into the mirror.</span>
+      </div>
+      <div class="footer-extra" hidden></div>
+      <div class="footer-footnote" aria-live="polite"></div>
+      <div class="footer-micro" style="margin-top:12px">
+        <p>© 2025 Ukubona LLC · <a href="/assets/files/ukubona.vcf" download>vCard</a> · Johns Hopkins Enterprise Vendor (June 2025)</p>
+      </div>
+    </div>
+  </footer>
+  <script src="ukhona/js/main.js"></script>
+</body>
+</html>
